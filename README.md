@@ -20,6 +20,9 @@ it, simply add the following line to your Podfile:
 pod 'MoMoiOSsdkv2'
 ```
 
+```
+pod 'MoMoiOSsdkv2', :git => 'https://github.com/momodevelopment/MoMoiOSsdkv2.git',:branch => "master"
+```
 ## Author
 
 momodevelopment, lanhluu.vn@gmail.com
