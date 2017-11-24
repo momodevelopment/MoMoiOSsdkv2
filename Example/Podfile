@@ -2,10 +2,4 @@ use_frameworks!
 
 target 'MoMoiOSsdkv2_Example' do
   pod 'MoMoiOSsdkv2', :path => '../'
-
-  target 'MoMoiOSsdkv2_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
