@@ -8,6 +8,9 @@
 
 @import UIKit;
 
-@interface TestViewController : UIViewController
+@interface TestViewController : UIViewController<UITextFieldDelegate>
 
+- (IBAction)pushNoti:(id)sender;
+- (IBAction)cancelNoti:(id)sender;
+- (IBAction)backAction:(id)sender;
 @end

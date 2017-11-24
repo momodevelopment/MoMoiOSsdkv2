@@ -1,0 +1,16 @@
+PODS:
+  - MoMoiOSsdkv2 (2.2.0)
+
+DEPENDENCIES:
+  - MoMoiOSsdkv2 (from `../`)
+
+EXTERNAL SOURCES:
+  MoMoiOSsdkv2:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MoMoiOSsdkv2: 89dd2aac52332c29aad9b7ccfba7d3e06f56b647
+
+PODFILE CHECKSUM: 0d8ab68ace05dc4d152c298d0be81d02e0911a69
+
+COCOAPODS: 1.2.1

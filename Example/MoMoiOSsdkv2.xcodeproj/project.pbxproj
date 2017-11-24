@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		282CAE5B27C73EB2F18499B5 /* Pods_MoMoiOSsdkv2_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1887B7E498D75F7C38AA3B13 /* Pods_MoMoiOSsdkv2_Tests.framework */; };
+		2164D5F41FC86A1F001830FB /* MoMoiOSsdkv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2164D5F51FC86A1F001830FB /* MoMoiOSsdkv2.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,10 +38,11 @@
 
 /* Begin PBXFileReference section */
 		1887B7E498D75F7C38AA3B13 /* Pods_MoMoiOSsdkv2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoMoiOSsdkv2_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		19A9D4909F04F0B58FD15A06 /* MoMoiOSsdkv2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MoMoiOSsdkv2.podspec; path = ../MoMoiOSsdkv2.podspec; sourceTree = "<group>"; };
-		2F27C22194AA17B5BC1AF974 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		37C2B942286FF32243305CC2 /* Pods-MoMoiOSsdkv2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoMoiOSsdkv2_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoMoiOSsdkv2_Tests/Pods-MoMoiOSsdkv2_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5985E792D7CB26E2B287FE92 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		19A9D4909F04F0B58FD15A06 /* MoMoiOSsdkv2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MoMoiOSsdkv2.podspec; path = ../MoMoiOSsdkv2.podspec; sourceTree = "<group>"; };
+		2164D5F31FC8683E001830FB /* MoMoiOSsdkv2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MoMoiOSsdkv2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2164D5F51FC86A1F001830FB /* MoMoiOSsdkv2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MoMoiOSsdkv2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F27C22194AA17B5BC1AF974 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5985E792D7CB26E2B287FE92 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MoMoiOSsdkv2_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoMoiOSsdkv2_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,7 +64,6 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		90E4BE743CDBCAFFAF7DEFFB /* Pods-MoMoiOSsdkv2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoMoiOSsdkv2_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoMoiOSsdkv2_Tests/Pods-MoMoiOSsdkv2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BBAA9BEB2D1A4F7A7E14E4B4 /* Pods-MoMoiOSsdkv2_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoMoiOSsdkv2_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoMoiOSsdkv2_Example/Pods-MoMoiOSsdkv2_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BC0C97D693B3189CC02E4732 /* Pods-MoMoiOSsdkv2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoMoiOSsdkv2_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoMoiOSsdkv2_Example/Pods-MoMoiOSsdkv2_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E311509D1CFC2DCA788B3466 /* Pods_MoMoiOSsdkv2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoMoiOSsdkv2_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2164D5F41FC86A1F001830FB /* MoMoiOSsdkv2.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -88,7 +89,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				282CAE5B27C73EB2F18499B5 /* Pods_MoMoiOSsdkv2_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +100,6 @@
 			children = (
 				BBAA9BEB2D1A4F7A7E14E4B4 /* Pods-MoMoiOSsdkv2_Example.debug.xcconfig */,
 				BC0C97D693B3189CC02E4732 /* Pods-MoMoiOSsdkv2_Example.release.xcconfig */,
-				90E4BE743CDBCAFFAF7DEFFB /* Pods-MoMoiOSsdkv2_Tests.debug.xcconfig */,
-				37C2B942286FF32243305CC2 /* Pods-MoMoiOSsdkv2_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -130,6 +128,8 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2164D5F51FC86A1F001830FB /* MoMoiOSsdkv2.framework */,
+				2164D5F31FC8683E001830FB /* MoMoiOSsdkv2.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -223,12 +223,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "MoMoiOSsdkv2_Tests" */;
 			buildPhases = (
-				3835742E3045F187208D2C61 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				F0982FD14B6DAB5F49D09398 /* [CP] Embed Pods Frameworks */,
-				CEB6019356E13477A43554A2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -297,21 +294,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3835742E3045F187208D2C61 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 		64F4543E693AE05CDFF2CD3C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -355,36 +337,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoMoiOSsdkv2_Example/Pods-MoMoiOSsdkv2_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CEB6019356E13477A43554A2 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoMoiOSsdkv2_Tests/Pods-MoMoiOSsdkv2_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F0982FD14B6DAB5F49D09398 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoMoiOSsdkv2_Tests/Pods-MoMoiOSsdkv2_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -551,7 +503,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90E4BE743CDBCAFFAF7DEFFB /* Pods-MoMoiOSsdkv2_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -575,7 +526,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37C2B942286FF32243305CC2 /* Pods-MoMoiOSsdkv2_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
