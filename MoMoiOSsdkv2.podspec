@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MoMoiOSsdkv2'
-  s.version          = '0.1.1'
+  s.version          = '2.2.1'
   s.summary          = 'MoMo Sdk framework for ObjC.'
 
 # This description is used to generate tags and improve search results.
@@ -30,11 +30,11 @@ Pod::Spec.new do |s|
 
   s.source_files = 'MoMoiOSsdkv2/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'MoMoiOSsdkv2' => ['MoMoiOSsdkv2/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'MoMoiOSsdkv2' => ['MoMoiOSsdkv2/Assets/*.png']
+  }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
