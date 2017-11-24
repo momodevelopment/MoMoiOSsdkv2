@@ -1,11 +1,5 @@
 use_frameworks!
 
 target 'MoMoiOSsdkv2_Example' do
-#    pod 'MoMoiOSsdkv2', :path => '../'
-    pod 'MoMoiOSsdkv2', :git => 'https://github.com/momodevelopment/MoMoiOSsdkv2.git', :branch => 'master', submodules: true
-#  target 'MoMoiOSsdkv2_Tests' do
-#    inherit! :search_paths
-
-    
-#  end
+  pod 'MoMoiOSsdkv2', :path => '../'
 end
