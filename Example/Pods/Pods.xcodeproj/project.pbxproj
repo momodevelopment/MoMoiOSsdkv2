@@ -7,28 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14BA289A3B5DF9382FB7144096CB93C1 /* momo.png in Resources */ = {isa = PBXBuildFile; fileRef = C27A5285E24CFEC1ED37582CC152815B /* momo.png */; };
-		1733BFCC2CE538747A4CF12BACDC0545 /* MoMoDialogs.m in Sources */ = {isa = PBXBuildFile; fileRef = A7344736F8C4C3D5EA23118B8106C761 /* MoMoDialogs.m */; };
-		1D3D29C1F22550A2E2ABD27C6B3AE30F /* MoMoPayment.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A63CC88931CD378178A7EAFAD39A6A /* MoMoPayment.m */; };
-		20A4685EEDF792584F321723E62FD599 /* MoMoDialogs.h in Headers */ = {isa = PBXBuildFile; fileRef = 211CFCBB5535C54C9512C5C83B8AC0A1 /* MoMoDialogs.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A4218ABAAB336E6507C7AF4401136FA /* momoclose.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B426F7705E9A2C3C3139BB1689CA892 /* momoclose.png */; };
-		71D7BFC656333896A254F3FDA6800C00 /* MoMoiOSsdkv2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D76798643AD7B91403BE9D7DCCD4060 /* MoMoiOSsdkv2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00E644A661A3703A86C11F385B3C08BB /* momo_lock_symbol.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6EFA0EA018E15DFEB15256257A2DC1 /* momo_lock_symbol.png */; };
+		05103755E243699885DF14B634AF6EB7 /* MoMoiOSsdkv2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8C5B5C3BA1E9DD23087CF8153EF0F5 /* MoMoiOSsdkv2-dummy.m */; };
+		384BD542C7974378344DAD60E8FBFD24 /* momo_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D12A32F932ABF7CDE182987FBE8CD70 /* momo_back.png */; };
+		43DA65BDA7A589BDC9C1B3D08C8324A6 /* MoMoPayment.h in Headers */ = {isa = PBXBuildFile; fileRef = 415D1F1AE916E799A8A0F03E389A26AD /* MoMoPayment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A034B99EFE4DD087160277F5FF56AE9 /* momo_ic_reload.png in Resources */ = {isa = PBXBuildFile; fileRef = C284B04E0C93505B1E63B1CE292232D3 /* momo_ic_reload.png */; };
+		8750534C05B5DE23AE03627966720838 /* momo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66241BC780E1C549DA7C96CF486A933E /* momo@2x.png */; };
+		8FD6DC9E7D362CB40778F7F3F8BBEFC2 /* MoMoiOSsdkv2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE32C961FA5AB5AB2CFFE5D5748479AE /* MoMoiOSsdkv2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		917D0262192CE35D607DF5C4E7872633 /* momoclose.png in Resources */ = {isa = PBXBuildFile; fileRef = 209D663D403FA25242D7082CEB772629 /* momoclose.png */; };
+		91908FCF6D192AC893295BDCABBE8815 /* momo_highlights.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D2A09460B04A8693AC3EA7EE8BBF3B6 /* momo_highlights.png */; };
+		91C789F70850486BC9D63FCE855840CC /* momo_highlights@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2608B322CA9B2221E88039953F8E0F33 /* momo_highlights@2x.png */; };
 		93552D355BEEB692FC689780F7090255 /* Pods-MoMoiOSsdkv2_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBBAC9759CE74385076E2C3DF5A3809 /* Pods-MoMoiOSsdkv2_Example-dummy.m */; };
 		93ACEDFD3D437F46CE0C06376AB67C2F /* MoMoiOSsdkv2.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AD6988895EC60F4DCB8E4553A98D8E83 /* MoMoiOSsdkv2.bundle */; };
 		9BDBD6E3ABDDAAA2CC1B5CF26278D1D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B500AFF255956E27214DE3E6E5855FCF /* momo_highlights@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 326E00C8DE6F514FE2F671FF5848CBEE /* momo_highlights@2x.png */; };
-		B6659930625BE7FFE9BE282938C9454E /* MoMoiOSsdkv2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFCE4A34B19EA0739EC79685BC04BC7 /* MoMoiOSsdkv2-dummy.m */; };
-		B69A58C8006DA3C7C3EE3E4CE56697A6 /* momo_highlights.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E643A9F773898C3147A38E699E6974 /* momo_highlights.png */; };
-		B8D49D42B7EE7D9F98CDE7DF259CCE29 /* MoMoConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E31AD66500FC82B265D99DD8327B6D2E /* MoMoConfig.m */; };
+		A391A87A76D430313EF5D600E421B2C9 /* MoMoDialogs.h in Headers */ = {isa = PBXBuildFile; fileRef = EFB51779ED6946AB360CA0894E8A4CAC /* MoMoDialogs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0DC45868592ECE73B63E100FFB6108E /* momo.png in Resources */ = {isa = PBXBuildFile; fileRef = C36C4B9C62EBC1BE13B469F531D5DEF0 /* momo.png */; };
+		B20CF16AFED3E1A31E32A1BB15E7A28F /* MoMoPayment.m in Sources */ = {isa = PBXBuildFile; fileRef = 52368D75DAF7157BCB32446051861C69 /* MoMoPayment.m */; };
+		C230941D5DCF0CDC767EE0791C3974E7 /* MoMoConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A39048DAD3EA71CDA320C37FE30AD6C7 /* MoMoConfig.m */; };
+		CB4D42691741ADF7814F910E21A26CA9 /* MoMoDialogs.m in Sources */ = {isa = PBXBuildFile; fileRef = 934597CCAAB04CF005C4676006030572 /* MoMoDialogs.m */; };
 		CF9563BBD88F3D70FBA01466CD198F8E /* Pods-MoMoiOSsdkv2_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD613634A7A1A4470B72891117167BAA /* Pods-MoMoiOSsdkv2_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7F1DDA31F68B35B401B6FAE19908152 /* momo_lock_symbol.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F3ED4E1022CDFB8E8F1624C7600F9FE /* momo_lock_symbol.png */; };
-		D7F90364507B608F7BB5E4C8358C0BB7 /* momo_ic_reload_press.png in Resources */ = {isa = PBXBuildFile; fileRef = EBA35645C5F75F8E2B5F5C5D79488F00 /* momo_ic_reload_press.png */; };
-		DC48881F3E1D4EC319ED262964F8086C /* MoMoConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = C92B789C9CB81479F6621D543B4C1003 /* MoMoConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DFB577999C061958CABE0541C0ACC29F /* momo_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C82ADD6BA3CE3B25B3667A29646CB3C /* momo_back.png */; };
-		E53DAE84497B5895AD9AA46DF47098E6 /* MoMoPayment.h in Headers */ = {isa = PBXBuildFile; fileRef = 049CF3EE752F7F4FA40EA543B0DD1353 /* MoMoPayment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF254D36C40D615BC59907C7C51FD718 /* MoMoConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 11887B5BE0F37E20ED5418799F6C5216 /* MoMoConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1AD41F150896BE7BA9B2EAE4C53617E /* momo_ic_reload_press.png in Resources */ = {isa = PBXBuildFile; fileRef = CC4D8253F5BE70F0DA864B0D1FE97474 /* momo_ic_reload_press.png */; };
 		F458B27378D592C120B511D437C98F70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		F5E2AD84A8115CA4F79FCE69FD48CDAC /* momo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93713A1E89E95F2DB4B97788D870CD77 /* momo@2x.png */; };
-		FF6308275C0EC3592590FC26CDF08CFF /* momo_ic_reload.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0799DE6C60C682D7C3E204459D73E3 /* momo_ic_reload.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,43 +49,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		049CF3EE752F7F4FA40EA543B0DD1353 /* MoMoPayment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MoMoPayment.h; sourceTree = "<group>"; };
+		11887B5BE0F37E20ED5418799F6C5216 /* MoMoConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MoMoConfig.h; path = MoMoiOSsdkv2/Classes/MoMoConfig.h; sourceTree = "<group>"; };
 		1866A61A16BC3F1C3A26A0410B5C0420 /* Pods-MoMoiOSsdkv2_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoMoiOSsdkv2_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1B426F7705E9A2C3C3139BB1689CA892 /* momoclose.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = momoclose.png; sourceTree = "<group>"; };
 		1F1A74F8D8102E5032B5D357D5F64BA2 /* Pods-MoMoiOSsdkv2_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoMoiOSsdkv2_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		211CFCBB5535C54C9512C5C83B8AC0A1 /* MoMoDialogs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MoMoDialogs.h; sourceTree = "<group>"; };
-		22E643A9F773898C3147A38E699E6974 /* momo_highlights.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = momo_highlights.png; sourceTree = "<group>"; };
-		326E00C8DE6F514FE2F671FF5848CBEE /* momo_highlights@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "momo_highlights@2x.png"; sourceTree = "<group>"; };
+		209D663D403FA25242D7082CEB772629 /* momoclose.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = momoclose.png; path = MoMoiOSsdkv2/Assets/momoclose.png; sourceTree = "<group>"; };
+		243297373015541493D205D0C0926117 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2608B322CA9B2221E88039953F8E0F33 /* momo_highlights@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "momo_highlights@2x.png"; path = "MoMoiOSsdkv2/Assets/momo_highlights@2x.png"; sourceTree = "<group>"; };
 		3B3687FA062608A1F23F3571580F4B95 /* MoMoiOSsdkv2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MoMoiOSsdkv2.framework; path = MoMoiOSsdkv2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C69B84416E1F4E832C876E506FDA186 /* Pods-MoMoiOSsdkv2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoMoiOSsdkv2_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3C82ADD6BA3CE3B25B3667A29646CB3C /* momo_back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = momo_back.png; sourceTree = "<group>"; };
-		3EF44F58436027E023FFEC5B48658F33 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		44B98B9556279078F473ABE337D6A367 /* MoMoiOSsdkv2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MoMoiOSsdkv2.modulemap; sourceTree = "<group>"; };
+		3D2A09460B04A8693AC3EA7EE8BBF3B6 /* momo_highlights.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = momo_highlights.png; path = MoMoiOSsdkv2/Assets/momo_highlights.png; sourceTree = "<group>"; };
+		415D1F1AE916E799A8A0F03E389A26AD /* MoMoPayment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MoMoPayment.h; path = MoMoiOSsdkv2/Classes/MoMoPayment.h; sourceTree = "<group>"; };
 		4546905D635F3DE396B7276877C7B295 /* Pods-MoMoiOSsdkv2_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoMoiOSsdkv2_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4E6B64BD030B61A2D8AD26FFA803F1CE /* MoMoiOSsdkv2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MoMoiOSsdkv2.xcconfig; sourceTree = "<group>"; };
-		4F3ED4E1022CDFB8E8F1624C7600F9FE /* momo_lock_symbol.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = momo_lock_symbol.png; sourceTree = "<group>"; };
-		4FFCE4A34B19EA0739EC79685BC04BC7 /* MoMoiOSsdkv2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MoMoiOSsdkv2-dummy.m"; sourceTree = "<group>"; };
+		52368D75DAF7157BCB32446051861C69 /* MoMoPayment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MoMoPayment.m; path = MoMoiOSsdkv2/Classes/MoMoPayment.m; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6C2029BB34C6FA74BA357EA9104CE2D7 /* MoMoiOSsdkv2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MoMoiOSsdkv2-prefix.pch"; sourceTree = "<group>"; };
-		6D76798643AD7B91403BE9D7DCCD4060 /* MoMoiOSsdkv2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MoMoiOSsdkv2-umbrella.h"; sourceTree = "<group>"; };
-		93713A1E89E95F2DB4B97788D870CD77 /* momo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "momo@2x.png"; sourceTree = "<group>"; };
+		66241BC780E1C549DA7C96CF486A933E /* momo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "momo@2x.png"; path = "MoMoiOSsdkv2/Assets/momo@2x.png"; sourceTree = "<group>"; };
+		8C8C5B5C3BA1E9DD23087CF8153EF0F5 /* MoMoiOSsdkv2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MoMoiOSsdkv2-dummy.m"; sourceTree = "<group>"; };
+		934597CCAAB04CF005C4676006030572 /* MoMoDialogs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MoMoDialogs.m; path = MoMoiOSsdkv2/Classes/MoMoDialogs.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9BBBAC9759CE74385076E2C3DF5A3809 /* Pods-MoMoiOSsdkv2_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoMoiOSsdkv2_Example-dummy.m"; sourceTree = "<group>"; };
+		9D12A32F932ABF7CDE182987FBE8CD70 /* momo_back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = momo_back.png; path = MoMoiOSsdkv2/Assets/momo_back.png; sourceTree = "<group>"; };
 		9EBDE28CAACA103F68050952154FE928 /* Pods-MoMoiOSsdkv2_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoMoiOSsdkv2_Example-frameworks.sh"; sourceTree = "<group>"; };
-		A7344736F8C4C3D5EA23118B8106C761 /* MoMoDialogs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MoMoDialogs.m; sourceTree = "<group>"; };
+		A39048DAD3EA71CDA320C37FE30AD6C7 /* MoMoConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MoMoConfig.m; path = MoMoiOSsdkv2/Classes/MoMoConfig.m; sourceTree = "<group>"; };
 		AD613634A7A1A4470B72891117167BAA /* Pods-MoMoiOSsdkv2_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoMoiOSsdkv2_Example-umbrella.h"; sourceTree = "<group>"; };
 		AD6988895EC60F4DCB8E4553A98D8E83 /* MoMoiOSsdkv2.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MoMoiOSsdkv2.bundle; path = MoMoiOSsdkv2.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		B33FA3CCBEA0DD75FE7A476562754977 /* Pods-MoMoiOSsdkv2_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MoMoiOSsdkv2_Example.modulemap"; sourceTree = "<group>"; };
-		C1C8D3573E79E1DF78371B8EABD5E9AC /* ResourceBundle-MoMoiOSsdkv2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MoMoiOSsdkv2-Info.plist"; sourceTree = "<group>"; };
-		C27A5285E24CFEC1ED37582CC152815B /* momo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = momo.png; sourceTree = "<group>"; };
-		C92B789C9CB81479F6621D543B4C1003 /* MoMoConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MoMoConfig.h; sourceTree = "<group>"; };
-		CE0799DE6C60C682D7C3E204459D73E3 /* momo_ic_reload.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = momo_ic_reload.png; sourceTree = "<group>"; };
+		BD1DCCFFF066EFE57E809429A9FD9BC6 /* ResourceBundle-MoMoiOSsdkv2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MoMoiOSsdkv2-Info.plist"; sourceTree = "<group>"; };
+		BE32C961FA5AB5AB2CFFE5D5748479AE /* MoMoiOSsdkv2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MoMoiOSsdkv2-umbrella.h"; sourceTree = "<group>"; };
+		C284B04E0C93505B1E63B1CE292232D3 /* momo_ic_reload.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = momo_ic_reload.png; path = MoMoiOSsdkv2/Assets/momo_ic_reload.png; sourceTree = "<group>"; };
+		C36C4B9C62EBC1BE13B469F531D5DEF0 /* momo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = momo.png; path = MoMoiOSsdkv2/Assets/momo.png; sourceTree = "<group>"; };
+		CC4D8253F5BE70F0DA864B0D1FE97474 /* momo_ic_reload_press.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = momo_ic_reload_press.png; path = MoMoiOSsdkv2/Assets/momo_ic_reload_press.png; sourceTree = "<group>"; };
 		DE13C85EAEA3037DCED67D4F76F35E9A /* Pods_MoMoiOSsdkv2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MoMoiOSsdkv2_Example.framework; path = "Pods-MoMoiOSsdkv2_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E31AD66500FC82B265D99DD8327B6D2E /* MoMoConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MoMoConfig.m; sourceTree = "<group>"; };
-		EBA35645C5F75F8E2B5F5C5D79488F00 /* momo_ic_reload_press.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = momo_ic_reload_press.png; sourceTree = "<group>"; };
+		E8A72ABA67F786DC869AB088130C6EB1 /* MoMoiOSsdkv2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MoMoiOSsdkv2-prefix.pch"; sourceTree = "<group>"; };
+		EBE423A9475AADAEA8C484676AB6893C /* MoMoiOSsdkv2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MoMoiOSsdkv2.xcconfig; sourceTree = "<group>"; };
+		EC6EFA0EA018E15DFEB15256257A2DC1 /* momo_lock_symbol.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = momo_lock_symbol.png; path = MoMoiOSsdkv2/Assets/momo_lock_symbol.png; sourceTree = "<group>"; };
+		EFB51779ED6946AB360CA0894E8A4CAC /* MoMoDialogs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MoMoDialogs.h; path = MoMoiOSsdkv2/Classes/MoMoDialogs.h; sourceTree = "<group>"; };
 		F109A8EBA08BF5E3675CFA137FA258D1 /* Pods-MoMoiOSsdkv2_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoMoiOSsdkv2_Example-resources.sh"; sourceTree = "<group>"; };
 		F19D3CC09E23A4855C31C0933E64AC41 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2A63CC88931CD378178A7EAFAD39A6A /* MoMoPayment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MoMoPayment.m; sourceTree = "<group>"; };
+		FC4E50CCB354F5993C20A076FDD0FCF1 /* MoMoiOSsdkv2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MoMoiOSsdkv2.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,50 +133,28 @@
 			path = "Target Support Files/Pods-MoMoiOSsdkv2_Example";
 			sourceTree = "<group>";
 		};
-		194D13E27ACEF4C14550AFF2352DBB9F /* Support Files */ = {
+		193C836822625912A7EF036046ED471F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3EF44F58436027E023FFEC5B48658F33 /* Info.plist */,
-				44B98B9556279078F473ABE337D6A367 /* MoMoiOSsdkv2.modulemap */,
-				4E6B64BD030B61A2D8AD26FFA803F1CE /* MoMoiOSsdkv2.xcconfig */,
-				4FFCE4A34B19EA0739EC79685BC04BC7 /* MoMoiOSsdkv2-dummy.m */,
-				6C2029BB34C6FA74BA357EA9104CE2D7 /* MoMoiOSsdkv2-prefix.pch */,
-				6D76798643AD7B91403BE9D7DCCD4060 /* MoMoiOSsdkv2-umbrella.h */,
-				C1C8D3573E79E1DF78371B8EABD5E9AC /* ResourceBundle-MoMoiOSsdkv2-Info.plist */,
+				4B3D6E366F85CA95399DA712432A99E7 /* MoMoiOSsdkv2 */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MoMoiOSsdkv2";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		2100964B7A26E87152913682B27576D9 /* Classes */ = {
+		4B3D6E366F85CA95399DA712432A99E7 /* MoMoiOSsdkv2 */ = {
 			isa = PBXGroup;
 			children = (
-				C92B789C9CB81479F6621D543B4C1003 /* MoMoConfig.h */,
-				E31AD66500FC82B265D99DD8327B6D2E /* MoMoConfig.m */,
-				211CFCBB5535C54C9512C5C83B8AC0A1 /* MoMoDialogs.h */,
-				A7344736F8C4C3D5EA23118B8106C761 /* MoMoDialogs.m */,
-				049CF3EE752F7F4FA40EA543B0DD1353 /* MoMoPayment.h */,
-				F2A63CC88931CD378178A7EAFAD39A6A /* MoMoPayment.m */,
+				11887B5BE0F37E20ED5418799F6C5216 /* MoMoConfig.h */,
+				A39048DAD3EA71CDA320C37FE30AD6C7 /* MoMoConfig.m */,
+				EFB51779ED6946AB360CA0894E8A4CAC /* MoMoDialogs.h */,
+				934597CCAAB04CF005C4676006030572 /* MoMoDialogs.m */,
+				415D1F1AE916E799A8A0F03E389A26AD /* MoMoPayment.h */,
+				52368D75DAF7157BCB32446051861C69 /* MoMoPayment.m */,
+				EAB642ACCDF81DE9DBF6E5C2C7C0AB51 /* Resources */,
+				D5492FDCCE2A10E050AF77103E5BFACD /* Support Files */,
 			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		28890416EDEF6698E46DA94BEC7EA518 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				C27A5285E24CFEC1ED37582CC152815B /* momo.png */,
-				93713A1E89E95F2DB4B97788D870CD77 /* momo@2x.png */,
-				3C82ADD6BA3CE3B25B3667A29646CB3C /* momo_back.png */,
-				22E643A9F773898C3147A38E699E6974 /* momo_highlights.png */,
-				326E00C8DE6F514FE2F671FF5848CBEE /* momo_highlights@2x.png */,
-				CE0799DE6C60C682D7C3E204459D73E3 /* momo_ic_reload.png */,
-				EBA35645C5F75F8E2B5F5C5D79488F00 /* momo_ic_reload_press.png */,
-				4F3ED4E1022CDFB8E8F1624C7600F9FE /* momo_lock_symbol.png */,
-				1B426F7705E9A2C3C3139BB1689CA892 /* momoclose.png */,
-			);
-			name = Assets;
-			path = Assets;
+			name = MoMoiOSsdkv2;
+			path = MoMoiOSsdkv2;
 			sourceTree = "<group>";
 		};
 		5290268996D6CD240BE6AD82ECBF4C99 /* Products */ = {
@@ -193,19 +171,11 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				B0B6CC6A14C42FEE2FB603D8902BF0C0 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				193C836822625912A7EF036046ED471F /* Pods */,
 				5290268996D6CD240BE6AD82ECBF4C99 /* Products */,
 				B934EF06423D7D3A3F9A497D4C62B190 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		B0B6CC6A14C42FEE2FB603D8902BF0C0 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CCE7903B1177F110A2E253828AFC50E4 /* MoMoiOSsdkv2 */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		B934EF06423D7D3A3F9A497D4C62B190 /* Targets Support Files */ = {
@@ -224,17 +194,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CCE7903B1177F110A2E253828AFC50E4 /* MoMoiOSsdkv2 */ = {
-			isa = PBXGroup;
-			children = (
-				F865983313377408AC33EA5139E89114 /* MoMoiOSsdkv2 */,
-				F09D57A41F7141F53521A4A6F140AD09 /* Resources */,
-				194D13E27ACEF4C14550AFF2352DBB9F /* Support Files */,
-			);
-			name = MoMoiOSsdkv2;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -243,30 +202,35 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D842119BE8DF2AA942B9A91DC9AEE223 /* MoMoiOSsdkv2 */ = {
+		D5492FDCCE2A10E050AF77103E5BFACD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				28890416EDEF6698E46DA94BEC7EA518 /* Assets */,
+				243297373015541493D205D0C0926117 /* Info.plist */,
+				FC4E50CCB354F5993C20A076FDD0FCF1 /* MoMoiOSsdkv2.modulemap */,
+				EBE423A9475AADAEA8C484676AB6893C /* MoMoiOSsdkv2.xcconfig */,
+				8C8C5B5C3BA1E9DD23087CF8153EF0F5 /* MoMoiOSsdkv2-dummy.m */,
+				E8A72ABA67F786DC869AB088130C6EB1 /* MoMoiOSsdkv2-prefix.pch */,
+				BE32C961FA5AB5AB2CFFE5D5748479AE /* MoMoiOSsdkv2-umbrella.h */,
+				BD1DCCFFF066EFE57E809429A9FD9BC6 /* ResourceBundle-MoMoiOSsdkv2-Info.plist */,
 			);
-			name = MoMoiOSsdkv2;
-			path = MoMoiOSsdkv2;
+			name = "Support Files";
+			path = "../Target Support Files/MoMoiOSsdkv2";
 			sourceTree = "<group>";
 		};
-		F09D57A41F7141F53521A4A6F140AD09 /* Resources */ = {
+		EAB642ACCDF81DE9DBF6E5C2C7C0AB51 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D842119BE8DF2AA942B9A91DC9AEE223 /* MoMoiOSsdkv2 */,
+				C36C4B9C62EBC1BE13B469F531D5DEF0 /* momo.png */,
+				66241BC780E1C549DA7C96CF486A933E /* momo@2x.png */,
+				9D12A32F932ABF7CDE182987FBE8CD70 /* momo_back.png */,
+				3D2A09460B04A8693AC3EA7EE8BBF3B6 /* momo_highlights.png */,
+				2608B322CA9B2221E88039953F8E0F33 /* momo_highlights@2x.png */,
+				C284B04E0C93505B1E63B1CE292232D3 /* momo_ic_reload.png */,
+				CC4D8253F5BE70F0DA864B0D1FE97474 /* momo_ic_reload_press.png */,
+				EC6EFA0EA018E15DFEB15256257A2DC1 /* momo_lock_symbol.png */,
+				209D663D403FA25242D7082CEB772629 /* momoclose.png */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		F865983313377408AC33EA5139E89114 /* MoMoiOSsdkv2 */ = {
-			isa = PBXGroup;
-			children = (
-				2100964B7A26E87152913682B27576D9 /* Classes */,
-			);
-			name = MoMoiOSsdkv2;
-			path = MoMoiOSsdkv2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,14 +244,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DFFDBE5C312095A8B2B9DAB286FD2379 /* Headers */ = {
+		93CFFCBDD5B2C3C4C8CBA55EA04D9CEA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC48881F3E1D4EC319ED262964F8086C /* MoMoConfig.h in Headers */,
-				20A4685EEDF792584F321723E62FD599 /* MoMoDialogs.h in Headers */,
-				71D7BFC656333896A254F3FDA6800C00 /* MoMoiOSsdkv2-umbrella.h in Headers */,
-				E53DAE84497B5895AD9AA46DF47098E6 /* MoMoPayment.h in Headers */,
+				DF254D36C40D615BC59907C7C51FD718 /* MoMoConfig.h in Headers */,
+				A391A87A76D430313EF5D600E421B2C9 /* MoMoDialogs.h in Headers */,
+				8FD6DC9E7D362CB40778F7F3F8BBEFC2 /* MoMoiOSsdkv2-umbrella.h in Headers */,
+				43DA65BDA7A589BDC9C1B3D08C8324A6 /* MoMoPayment.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +264,7 @@
 			buildPhases = (
 				F7AE54CBFB1B25395D52BC34644E4E23 /* Sources */,
 				99DA103F4CBECEB70C2F4433D5874610 /* Frameworks */,
-				AF2152939867443C51317150AB65C6C8 /* Resources */,
+				E5A589E79B64761307ADE6B0E321045A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -333,10 +297,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6F5D865A2016006081759ED43C6248B /* Build configuration list for PBXNativeTarget "MoMoiOSsdkv2" */;
 			buildPhases = (
-				67AD9E7DB02F5AEF19E9B1B07D591917 /* Sources */,
+				59666F9FD242E79A3309E660B48C4C6C /* Sources */,
 				9226EB4296200EA40241E0ECD5CA7A09 /* Frameworks */,
 				EDF692D4856BF3075A39885BB9A3E3F6 /* Resources */,
-				DFFDBE5C312095A8B2B9DAB286FD2379 /* Headers */,
+				93CFFCBDD5B2C3C4C8CBA55EA04D9CEA /* Headers */,
 			);
 			buildRules = (
 			);
@@ -377,19 +341,19 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AF2152939867443C51317150AB65C6C8 /* Resources */ = {
+		E5A589E79B64761307ADE6B0E321045A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14BA289A3B5DF9382FB7144096CB93C1 /* momo.png in Resources */,
-				F5E2AD84A8115CA4F79FCE69FD48CDAC /* momo@2x.png in Resources */,
-				DFB577999C061958CABE0541C0ACC29F /* momo_back.png in Resources */,
-				B69A58C8006DA3C7C3EE3E4CE56697A6 /* momo_highlights.png in Resources */,
-				B500AFF255956E27214DE3E6E5855FCF /* momo_highlights@2x.png in Resources */,
-				FF6308275C0EC3592590FC26CDF08CFF /* momo_ic_reload.png in Resources */,
-				D7F90364507B608F7BB5E4C8358C0BB7 /* momo_ic_reload_press.png in Resources */,
-				D7F1DDA31F68B35B401B6FAE19908152 /* momo_lock_symbol.png in Resources */,
-				4A4218ABAAB336E6507C7AF4401136FA /* momoclose.png in Resources */,
+				B0DC45868592ECE73B63E100FFB6108E /* momo.png in Resources */,
+				8750534C05B5DE23AE03627966720838 /* momo@2x.png in Resources */,
+				384BD542C7974378344DAD60E8FBFD24 /* momo_back.png in Resources */,
+				91908FCF6D192AC893295BDCABBE8815 /* momo_highlights.png in Resources */,
+				91C789F70850486BC9D63FCE855840CC /* momo_highlights@2x.png in Resources */,
+				7A034B99EFE4DD087160277F5FF56AE9 /* momo_ic_reload.png in Resources */,
+				F1AD41F150896BE7BA9B2EAE4C53617E /* momo_ic_reload_press.png in Resources */,
+				00E644A661A3703A86C11F385B3C08BB /* momo_lock_symbol.png in Resources */,
+				917D0262192CE35D607DF5C4E7872633 /* momoclose.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,14 +368,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		67AD9E7DB02F5AEF19E9B1B07D591917 /* Sources */ = {
+		59666F9FD242E79A3309E660B48C4C6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8D49D42B7EE7D9F98CDE7DF259CCE29 /* MoMoConfig.m in Sources */,
-				1733BFCC2CE538747A4CF12BACDC0545 /* MoMoDialogs.m in Sources */,
-				B6659930625BE7FFE9BE282938C9454E /* MoMoiOSsdkv2-dummy.m in Sources */,
-				1D3D29C1F22550A2E2ABD27C6B3AE30F /* MoMoPayment.m in Sources */,
+				C230941D5DCF0CDC767EE0791C3974E7 /* MoMoConfig.m in Sources */,
+				CB4D42691741ADF7814F910E21A26CA9 /* MoMoDialogs.m in Sources */,
+				05103755E243699885DF14B634AF6EB7 /* MoMoiOSsdkv2-dummy.m in Sources */,
+				B20CF16AFED3E1A31E32A1BB15E7A28F /* MoMoPayment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,7 +494,7 @@
 		};
 		70B43192DCF01206CAAB8D5EF100E8D8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E6B64BD030B61A2D8AD26FFA803F1CE /* MoMoiOSsdkv2.xcconfig */;
+			baseConfigurationReference = EBE423A9475AADAEA8C484676AB6893C /* MoMoiOSsdkv2.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -562,7 +526,7 @@
 		};
 		7B07AF674CC6461476AD4FA41C34F612 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E6B64BD030B61A2D8AD26FFA803F1CE /* MoMoiOSsdkv2.xcconfig */;
+			baseConfigurationReference = EBE423A9475AADAEA8C484676AB6893C /* MoMoiOSsdkv2.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MoMoiOSsdkv2";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -615,7 +579,7 @@
 		};
 		8ECFE52D1571FD5FC8BC3C675963478E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E6B64BD030B61A2D8AD26FFA803F1CE /* MoMoiOSsdkv2.xcconfig */;
+			baseConfigurationReference = EBE423A9475AADAEA8C484676AB6893C /* MoMoiOSsdkv2.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -647,7 +611,7 @@
 		};
 		B3BEABA05EE7362095A076EFD3A54982 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E6B64BD030B61A2D8AD26FFA803F1CE /* MoMoiOSsdkv2.xcconfig */;
+			baseConfigurationReference = EBE423A9475AADAEA8C484676AB6893C /* MoMoiOSsdkv2.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MoMoiOSsdkv2";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
