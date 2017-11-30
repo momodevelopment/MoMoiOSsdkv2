@@ -32,7 +32,7 @@
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(NoficationCenterTokenStartRequest:) name:@"NoficationCenterTokenStartRequest" object:nil]; ///SHOULD BE REMOVE THIS KEY WHEN VIEWCONTROLLER DEALLOCATING OR DISMISSING COMPLETED
     
     [[MoMoPayment shareInstant] initializingAppBundleId:@"com.abcFoody.LuckyLuck"
-                                             merchantId:@"CGV19072017" //
+                                             merchantId:@"CGV01" //
                                            merchantName:@"CGV"
                                       merchantNameTitle:@"Nhà cung cấp" billTitle:@"Nguoi dung"];
     ///

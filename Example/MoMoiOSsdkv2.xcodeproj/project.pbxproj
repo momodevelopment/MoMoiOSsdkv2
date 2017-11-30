@@ -480,7 +480,7 @@
 				GCC_PREFIX_HEADER = "MoMoiOSsdkv2/MoMoiOSsdkv2-Prefix.pch";
 				INFOPLIST_FILE = "MoMoiOSsdkv2/MoMoiOSsdkv2-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abcFoody.LuckyLuck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -495,7 +495,7 @@
 				GCC_PREFIX_HEADER = "MoMoiOSsdkv2/MoMoiOSsdkv2-Prefix.pch";
 				INFOPLIST_FILE = "MoMoiOSsdkv2/MoMoiOSsdkv2-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abcFoody.LuckyLuck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

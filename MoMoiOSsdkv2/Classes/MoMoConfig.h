@@ -28,8 +28,8 @@
 #define MOMO_PAY_CLIENT_USERNAME             @"username"
 
 #define MOMO_NOTIFICATION_CENTER_TOKEN_RECEIVED  @"NoficationCenterTokenReceived"
-#define MOMO_APP_BUNDLE_ID    @"com.mservice.com.vn.MoMoTransfer"
-#define MOMO_PAY_SDK_VERSION  @"2.0"
+#define MOMO_APP_BUNDLE_ID   @"momo" //@"com.mservice.com.vn.MoMoTransfer"
+#define MOMO_PAY_SDK_VERSION  @"2.2"
 #define MOMO_APP_ITUNES_DOWNLOAD_PATH @"itms-apps://itunes.apple.com/us/app/momo-chuyen-nhan-tien/id918751511"
 
 #define APP_MERCHANT_ACTION_KEY  @"APP_MERCHANT_ACTION_KEY"
