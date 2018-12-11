@@ -156,7 +156,9 @@ Button title: EN = MoMo Wallet , VI = Ví MoMo
                                             username,@"username",
                                             @"Người dùng",@"usernamelabel",
                                             nil];
-    [[MoMoPayment shareInstant] initPaymentInformation:paymentinfo momoAppScheme:@"com.mservice.com.vn.MoMoTransfer" environment:MOMO_SDK_PRODUCTION];
+    //[[MoMoPayment shareInstant] initPaymentInformation:paymentinfo momoAppScheme:@"momo" environment:MOMO_SDK_PRODUCTION];
+    
+    [[MoMoPayment shareInstant] initPaymentInformation:paymentinfo momoAppScheme:@"momo" environment:MOMO_SDK_DEVELOPMENT];
 
     //STEP 2: ADD BUTTON ACTION TO PAY VIA MOMO WALLET
     //buttonAction will open MoMo app to pay
