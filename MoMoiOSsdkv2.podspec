@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MoMoiOSsdkv2'
-  s.version          = '2.2.0'
-  s.summary          = 'MoMo Sdk framework for ObjC.'
+  s.version          = '2.2.1'
+  s.summary          = 'MoMo Sdk framework for ObjC'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/momodevelopment/MoMoiOSsdkv2.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.ios.deployment_target = '8.0'
-  s.source_files = 'MoMoiOSsdkv2/Classes/**/*'
+  s.source_files = 'MoMoiOSsdkv2/Classes/**/*.{h,m,png}'
   s.resource_bundles = {
     'MoMoiOSsdkv2' => ['MoMoiOSsdkv2/Assets/*.png']
   }
