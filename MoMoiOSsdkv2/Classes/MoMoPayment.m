@@ -401,8 +401,11 @@ static NSMutableDictionary *paymentInfo = nil;
             }
         }
         else{
-            [[NSNotificationCenter defaultCenter] postNotificationName:@"NoficationCenterTokenStartRequest" object:@"MoMoWebDialogs"];
-            [self requestWebpaymentData:paymentInfo requestType:@"payment"];
+                NSURL *appStoreURL = [NSURL URLWithString:[NSString stringWithFormat:MOMO_APP_ITUNES_DOWNLOAD_PATH]];
+                 if ([[UIApplication sharedApplication] canOpenURL:appStoreURL]) {
+                     
+                     [[UIApplication sharedApplication] openURL:appStoreURL];
+                 }
         }
         
     }
