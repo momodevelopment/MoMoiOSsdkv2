@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MoMoiOSsdkv2'
-  s.version          = '2.2.1'
-  s.summary          = 'MoMo Sdk framework for ObjC'
+  s.version          = '2.3.0'
+  s.summary          = 'MoMo Sdk framework for ObjC. payment and tokenization'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
