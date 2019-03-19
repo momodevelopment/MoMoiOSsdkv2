@@ -4,7 +4,7 @@
 //
 //  Created by Luu Lanh on 9/30/15.
 //  Copyright (c) 2015 LuuLanh. All rights reserved.
-//  Last updated: 08/17/2017
+//  Last updated: 03/19/2019
 //
 
 #import "MoMoPayment.h"
@@ -41,50 +41,6 @@ static NSMutableDictionary *paymentInfo = nil;
 -(void)setBillName:(NSString*)merchantname billTitle:(NSString*)billTitle{
     
 }
-/*
--(void)requestToken{
-    if ([paymentInfo isKindOfClass:[NSNull class]]) {
-        NSLog(@"<MoMoPay> Payment information should not be null.");
-        return;
-    }
-    [[NSNotificationCenter defaultCenter] postNotificationName:@"NoficationCenterStartRequestToken" object:nil];
-    
-    //Open MoMo App to get token
-    if ([paymentInfo isKindOfClass:[NSMutableDictionary class]]) {
-        NSString *inputParams = [NSString stringWithFormat:@"action=%@&partner=merchant",MOMO_PAY_SDK_ACTION_GETTOKEN];
-        [paymentInfo setValue:[MoMoConfig getMerchantcode]       forKey:MOMO_PAY_CLIENT_MERCHANT_CODE_KEY];
-        [paymentInfo setValue:[MoMoConfig getMerchantname]       forKey:MOMO_PAY_CLIENT_MERCHANT_NAME_KEY];
-        [paymentInfo setValue:[MoMoConfig getMerchantnameLabel]  forKey:MOMO_PAY_CLIENT_MERCHANT_NAME_LABEL_KEY];
-        [paymentInfo setValue:[MoMoConfig getUsernameLabel]  forKey:MOMO_PAY_CLIENT_USERNAME_LABEL_KEY];
-        [paymentInfo setValue:[MoMoConfig getPublickey]          forKey:MOMO_PAY_CLIENT_PUBLIC_KEY_KEY];
-        [paymentInfo setValue:[MoMoConfig getIPAddress]          forKey:MOMO_PAY_CLIENT_IP_ADDRESS_KEY];
-        [paymentInfo setValue:[MoMoConfig getDeviceInfoString]   forKey:MOMO_PAY_CLIENT_OS_KEY];
-        [paymentInfo setValue:[MoMoConfig getAppBundleId]        forKey:MOMO_PAY_CLIENT_APP_SOURCE_KEY];
-        [paymentInfo setValue:MOMO_PAY_SDK_VERSION               forKey:MOMO_PAY_SDK_VERSION_KEY];
-        
-        for (NSString *key in [paymentInfo allKeys]) {
-            if ([paymentInfo objectForKey:key] != nil) {
-                inputParams = [inputParams stringByAppendingFormat:@"&%@=%@",key,[paymentInfo objectForKey:key]];
-            }
-        }
-        
-        NSString *appSource = [NSString stringWithFormat:@"%@://?%@",[MOMO_APP_BUNDLE_ID lowercaseString],inputParams];
-        appSource = [appSource stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-        NSURL *ourURL = [NSURL URLWithString:appSource];
-        if ([[UIApplication sharedApplication] canOpenURL:ourURL]) {
-            [[UIApplication sharedApplication] openURL:ourURL];
-        }
-        else{
-            NSURL *appStoreURL = [NSURL URLWithString:[NSString stringWithFormat:MOMO_APP_ITUNES_DOWNLOAD_PATH]];
-            if ([[UIApplication sharedApplication] canOpenURL:appStoreURL]) {
-                [[UIApplication sharedApplication] openURL:appStoreURL];
-            }
-        }
-    }
-    
-    
-}
-*/
 -(void)handleOpenUrl:(NSURL*)url
 {
     NSString *sourceURI = [url absoluteString];
@@ -333,10 +289,8 @@ static NSMutableDictionary *paymentInfo = nil;
              }
              
              if (!isRegAvailable){
-                 NSLog(@">>>Goto Apple Store");
                  NSURL *appStoreURL = [NSURL URLWithString:[NSString stringWithFormat:MOMO_APP_ITUNES_DOWNLOAD_PATH]];
                  if ([[UIApplication sharedApplication] canOpenURL:appStoreURL]) {
-                     
                      [[UIApplication sharedApplication] openURL:appStoreURL];
                  }
              }
@@ -401,11 +355,10 @@ static NSMutableDictionary *paymentInfo = nil;
             }
         }
         else{
-                NSURL *appStoreURL = [NSURL URLWithString:[NSString stringWithFormat:MOMO_APP_ITUNES_DOWNLOAD_PATH]];
-                 if ([[UIApplication sharedApplication] canOpenURL:appStoreURL]) {
-                     
-                     [[UIApplication sharedApplication] openURL:appStoreURL];
-                 }
+            NSURL *appStoreURL = [NSURL URLWithString:[NSString stringWithFormat:MOMO_APP_ITUNES_DOWNLOAD_PATH]];
+            if ([[UIApplication sharedApplication] canOpenURL:appStoreURL]) {
+                [[UIApplication sharedApplication] openURL:appStoreURL];
+            }
         }
         
     }
@@ -437,8 +390,4 @@ static NSMutableDictionary *paymentInfo = nil;
 -(BOOL)getEnvironment{
     return [MoMoConfig getEnvironment];
 }
-/*
- //End SDK v.2.2
- //Dated: 7/25/17.
- */
 @end
