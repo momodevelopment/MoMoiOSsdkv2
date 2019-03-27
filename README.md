@@ -35,8 +35,7 @@ Step 1. Config file Plist
 </array>
 <key>LSApplicationQueriesSchemes</key>
 <array>
-  <string>com.momo.appv2.ios</string>
-  <string>com.mservice.com.vn.MoMoTransfer</string>
+  <string>momo</string>
 </array>
 <key>NSAppTransportSecurity</key>
 <dict>
