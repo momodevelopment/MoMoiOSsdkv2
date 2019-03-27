@@ -281,9 +281,9 @@
     
     
     //Development environment (only testing)
-    //[[MoMoPayment shareInstant] initPaymentInformation:paymentinfo momoAppScheme:@"com.momo.appv2.ios" environment:MOMO_SDK_PRODUCTION];
+    //[[MoMoPayment shareInstant] initPaymentInformation:paymentinfo momoAppScheme:@"momo" environment:MOMO_SDK_PRODUCTION];
     
-    [[MoMoPayment shareInstant] initPaymentInformation:paymentinfo momoAppScheme:@"com.momo.appv2.ios" environment:MOMO_SDK_DEVELOPMENT];
+    [[MoMoPayment shareInstant] initPaymentInformation:paymentinfo momoAppScheme:@"momo" environment:MOMO_SDK_DEVELOPMENT];
     
     //BUOC 2: add button Thanh toan bang Vi MoMo vao khu vuc ban can hien thi (Vi du o day la vung paymentArea)
     ///Custom button
